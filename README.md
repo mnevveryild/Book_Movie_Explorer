@@ -1,18 +1,29 @@
-
 # Book & Movie Explorer
 
-## Proje Açıklaması
-**Book & Movie Explorer**, Java ile IntelliJ IDEA kullanılarak geliştirilmiş bir OOP projesidir.  
-Projede kitaplar ve filmlerden oluşan bir kütüphane (Netflix sınıfı) oluşturulur. Kullanıcı giriş yaparak bu kütüphanedeki içerikleri yönetebilir ve belirli sorgularla bilgi alabilir.  
+## Project Description
+**Book & Movie Explorer** is an OOP project developed in Java using IntelliJ IDEA.  
+The project creates a library (Netflix class) consisting of books and movies. Users can log in and manage the content in this library, as well as retrieve information through specific queries.  
 
-Amaç:
-- En iyi film / kitapları görüntüleme,
-- En pahalı kitabı bulma,
-- Bir aktörün oynadığı tüm filmleri listeleme,
-- Skor ortalamalarına göre içerikleri karşılaştırma.
+### Goals
+- Display the best movies/books  
+- Find the most expensive book  
+- List all movies featuring a specific actor  
+- Compare content based on average scores  
 
 ---
 
-## Kullanılan Teknolojiler
+## Technologies Used
 - **Java**  
-- **IntelliJ IDEA** (IDE)  
+- **IntelliJ IDEA** (IDE)
+
+---
+
+## Features
+- Admin can add books, magazines, and poems  
+- Users can register themselves and log in  
+- Users can view available content  
+- Users can rate and comment on content  
+- Average scores are displayed next to each content  
+
+
+
