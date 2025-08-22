@@ -16,14 +16,6 @@ The project creates a library (Netflix class) consisting of books and movies. Us
 - **Java**  
 - **IntelliJ IDEA** (IDE)
 
----
-
-## Features
-- Admin can add books, magazines, and poems  
-- Users can register themselves and log in  
-- Users can view available content  
-- Users can rate and comment on content  
-- Average scores are displayed next to each content  
 
 
 
