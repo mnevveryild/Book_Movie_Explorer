@@ -11,6 +11,7 @@ public class Book extends Material{
     }
 
     public int getNumberOfPages(){
+
         return numberOfPages;
     }
 
@@ -19,15 +20,15 @@ public class Book extends Material{
         return String.format(
                 """
                 ╔══════════════════════════╗
-                ║      Kitap Bilgileri     ║
+                ║     Book Details         ║
                 ╚══════════════════════════╝
-                Adı          : %s
-                Yayın Yılı   : %d
-                Fiyat        : %d ₺
-                Kategori     : %s
-                Tür          : %s
-                Yazar        : %s %s
-                Sayfa Sayısı : %d
+                Name         : %s
+                Release Year : %d
+                Price        : %d ₺
+                Category     : %s
+                Type         : %s
+                Writer       : %s %s
+                Pages        : %d
                 """,
                 getName(),
                 getReleaseYear(),
@@ -42,6 +43,7 @@ public class Book extends Material{
 
     @Override
     public void showDetail() {
+
         System.out.println(this);
     }
 }

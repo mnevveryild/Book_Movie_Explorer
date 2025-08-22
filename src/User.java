@@ -6,7 +6,8 @@ public class User extends Person {
         this.userName=userName;
         this.password=password;
     }
-    public String getUserName(){
+    public String getUserName()
+    {
         return userName;
     }
 

@@ -9,6 +9,7 @@ public class Movie extends Material{
         this.director=director;
     }
     public ArrayList<Person> getActors(){
+
         return actors;
     }
 
@@ -23,15 +24,15 @@ public class Movie extends Material{
         return String.format(
                 """
                 ╔══════════════════════════╗
-                ║      Film Bilgileri      ║
+                ║      Movie Details       ║
                 ╚══════════════════════════╝
-                Film Adı     : %s
-                Yayın Yılı   : %d
-                Fiyat        : %d ₺
-                Kategori     : %s
-                Tür          : %s
-                Yönetmen     : %s %s
-                Aktörler     :
+                Movie Name     : %s
+                Release Year   : %d
+                Price          : %d ₺
+                Category       : %s
+                Type           : %s
+                Director       : %s %s
+                Actors         :
                 %s
                 """,
                 getName(),
@@ -46,6 +47,7 @@ public class Movie extends Material{
     }
     @Override
     public void showDetail() {
+
         System.out.println(this);
     }
 }

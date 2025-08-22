@@ -26,11 +26,11 @@ public abstract class Material {
 
     public Double getAvgScore() {
         if (scores.isEmpty()) return (double) 0;
-        int toplam = 0;
+        int total = 0;
         for (int s : scores) {
-            toplam += s;
+            total += s;
         }
-        return (double) toplam / scores.size();
+        return (double) total / scores.size();
     }
 
     public abstract void showDetail();
